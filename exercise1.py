@@ -13,5 +13,5 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-money = 1000.00
+money = 20000.00
 print(money)
