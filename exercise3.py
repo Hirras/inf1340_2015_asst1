@@ -58,3 +58,55 @@ def diagnose_car():
         print("Invalid input. Please enter \"y\" or \"n\".")
 
 diagnose_car()
+
+""" Test Cases
+
+Test Case 1
+Is the car silent when you turn the key? y
+Are the battery terminals corroded? y
+Clean terminals and try starting again
+
+Test Case 2
+Is the car silent when you turn the key? y
+Are the battery terminals corroded? n
+The battery cables may be damaged. Replace cables and try again.
+
+Test Case 3
+Is the car silent when you turn the key? n
+Does the car make a clicking noise? y
+Replace the battery.
+
+Test Case 4
+Is the car silent when you turn the key? n
+Does the car make a clicking noise? n
+Does the car crank up but fail to start? y
+Check spark plug connections.
+
+Test Case 5
+Is the car silent when you turn the key? n
+Does the car make a clicking noise? n
+Does the car crank up but fail to start? n
+Does the engine start and then die? n
+Your car is functioning.
+
+Test Case 6
+Is the car silent when you turn the key? n
+Does the car make a clicking noise? n
+Does the car crank up but fail to start? n
+Does the engine start and then die? y
+Does the car have fuel injection? y
+Get it in for service.
+
+Test Case 7
+Is the car silent when you turn the key? n
+Does the car make a clicking noise? n
+Does the car crank up but fail to start? n
+Does the engine start and then die? y
+Does the car have fuel injection? n
+Check to ensure the choke is opening and closing.
+
+Test Case 8
+Is the car silent when you turn the key? g
+Invalid input. Please enter "y" or "n".
+
+"""
