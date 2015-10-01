@@ -7,10 +7,7 @@ interactive diagnose car issues.
 
 """
 
-__author__ = 'Susan Sim'
-__email__ = "ses@drsusansim.org"
-__copyright__ = "2015 Susan Sim"
-__license__ = "MIT License"
+__author__ = 'Hirra and Tyler'
 
 
 def diagnose_car():
@@ -36,7 +33,7 @@ def diagnose_car():
     elif answer == "n":
         answer = raw_input("Does the car make a clicking noise? ")
         if answer == "y":
-             print ("Replace the battery.")
+            print ("Replace the battery.")
         elif answer == "n":
             answer = raw_input("Does the car crank up but fail to start? ")
             if answer == "y":
@@ -51,5 +48,13 @@ def diagnose_car():
                         print ("Check to ensure the choke is opening and closing.")
                 elif answer == "n":
                     print ("Your car is functioning.")
+                else:
+                    print("Invalid input. Please enter \"y\" or \"n\".")
+            else:
+                print("Invalid input. Please enter \"y\" or \"n\".")
+        else:
+            print("Invalid input. Please enter \"y\" or \"n\".")
+    else:
+        print("Invalid input. Please enter \"y\" or \"n\".")
 
 diagnose_car()
