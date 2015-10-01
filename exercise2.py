@@ -17,15 +17,33 @@ def name_that_shape():
     """
     For a given number of sides in a regular polygon, returns the shape name
 
-    Inputs:
+    Inputs: sides
 
-    Expected Outputs:
+    Expected Outputs: shape
 
-    Errors:
+    Errors: error
+
 
     """
-
-    print("Error")
+    sides = raw_input("Insert the number of sides: ")
+    if sides == "3":
+        print ("triangle")
+    elif sides == "4":
+        print ("square")
+    elif sides == "5":
+        print ("pentagon")
+    elif sides == "6":
+        print ("hexagon")
+    elif sides == "7":
+        print ("heptagon")
+    elif sides == "8":
+        print ("octagon")
+    elif sides == "9":
+        print ("nonagon")
+    elif sides == "10":
+        print ("decagon")
+    else:
+        print("Error")
 
 
 name_that_shape()
