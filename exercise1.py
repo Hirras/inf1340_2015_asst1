@@ -42,5 +42,4 @@ def calc_total_cost():
 
 profit = calc_total_cost()
 
-print("Profit/loss: $"+str(profit))
 
