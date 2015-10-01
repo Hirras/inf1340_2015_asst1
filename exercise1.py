@@ -42,4 +42,20 @@ def calc_total_cost():
 
 profit = calc_total_cost()
 
+print("Profit/loss: "+str(profit))
 
+""" Test cases
+Inputs:
+    Number of shares purchased: 2000
+    Purchase price per share: 900
+    Purchase commission percentage: 3
+    Number of shares sold: 2000
+    Sale price per share: 942.75
+    Sale commission percentage: 3
+
+Expected output:
+    Profit/loss: -25065.0
+
+Actual output:
+    Profit/loss: -25065.0
+"""
