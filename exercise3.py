@@ -87,7 +87,7 @@ Is the car silent when you turn the key? n
 Does the car make a clicking noise? n
 Does the car crank up but fail to start? n
 Does the engine start and then die? n
-Your car is functioning.
+Engine is not getting enough fuel. Clean fuel pump.
 
 Test Case 6
 Is the car silent when you turn the key? n
