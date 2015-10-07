@@ -47,7 +47,7 @@ def diagnose_car():
                     elif answer == "n":
                         print ("Check to ensure the choke is opening and closing.")
                 elif answer == "n":
-                    print ("Your car is functioning.")
+                    print ("Engine is not getting enough fuel. Clean fuel pump.")
                 else:
                     print("Invalid input. Please enter \"y\" or \"n\".")
             else:
