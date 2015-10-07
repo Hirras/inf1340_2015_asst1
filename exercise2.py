@@ -7,11 +7,7 @@ to input the number of sides in a shape and outputs the name of the shape.
 
 """
 
-__author__ = 'Susan Sim'
-__email__ = "ses@drsusansim.org"
-__copyright__ = "2015 Susan Sim"
-__license__ = "MIT License"
-
+__author__ = 'Hirra and Tyler'
 
 def name_that_shape():
     """
@@ -25,7 +21,11 @@ def name_that_shape():
 
 
     """
+
+    # get user input of number of sides
     sides = raw_input("Insert the number of sides: ")
+
+    # print shape name based on number of sides
     if sides == "3":
         print ("triangle")
     elif sides == "4":
