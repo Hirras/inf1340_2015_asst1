@@ -24,29 +24,29 @@ def diagnose_car():
 
     """
     answer = raw_input("Is the car silent when you turn the key? ")
-    if answer == "y":
+    if answer == "Y":
         answer = raw_input("Are the battery terminals corroded? ")
-        if answer == "y":
-            print ("Clean terminals and try starting again")
-        elif answer == "n":
-            print("The battery cables may be damaged. Replace cables and try again.")
-    elif answer == "n":
+        if answer == "Y":
+            print ("Clean terminals and try starting again.")
+        elif answer == "N":
+            print("Replace cables and try again.")
+    elif answer == "N":
         answer = raw_input("Does the car make a clicking noise? ")
-        if answer == "y":
+        if answer == "Y":
             print ("Replace the battery.")
-        elif answer == "n":
+        elif answer == "N":
             answer = raw_input("Does the car crank up but fail to start? ")
-            if answer == "y":
+            if answer == "Y":
                 print ("Check spark plug connections.")
-            elif answer == "n":
+            elif answer == "N":
                 answer = raw_input("Does the engine start and then die? ")
-                if answer == "y":
+                if answer == "Y":
                     answer = raw_input("Does the car have fuel injection? ")
-                    if answer == "y":
+                    if answer == "Y":
                         print ("Get it in for service.")
-                    elif answer == "n":
+                    elif answer == "N":
                         print ("Check to ensure the choke is opening and closing.")
-                elif answer == "n":
+                elif answer == "N":
                     print ("Engine is not getting enough fuel. Clean fuel pump.")
                 else:
                     print("Invalid input. Please enter \"y\" or \"n\".")
@@ -57,7 +57,7 @@ def diagnose_car():
     else:
         print("Invalid input. Please enter \"y\" or \"n\".")
 
-diagnose_car()
+# diagnose_car()
 
 """ Test Cases
 
@@ -107,6 +107,6 @@ Check to ensure the choke is opening and closing.
 
 Test Case 8
 Is the car silent when you turn the key? g
-Invalid input. Please enter "y" or "n".
+Invalid input. Please enter "Y" or "N".
 
 """

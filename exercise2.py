@@ -29,7 +29,7 @@ def name_that_shape():
     if sides == "3":
         print ("triangle")
     elif sides == "4":
-        print ("square")
+        print ("quadrilateral")
     elif sides == "5":
         print ("pentagon")
     elif sides == "6":
@@ -45,7 +45,7 @@ def name_that_shape():
     else:
         print("Error")
 
-name_that_shape()
+# name_that_shape()
 
 """ Test cases:
 Test case 1:
