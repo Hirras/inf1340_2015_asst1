@@ -22,6 +22,7 @@ def diagnose_car():
 
     Errors:
 
+
     """
     answer = raw_input("Is the car silent when you turn the key? ")
     if answer == "Y":
@@ -58,6 +59,8 @@ def diagnose_car():
         print("Invalid input. Please enter \"y\" or \"n\".")
 
 # diagnose_car()
+
+
 
 """ Test Cases
 
