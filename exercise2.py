@@ -9,6 +9,7 @@ to input the number of sides in a shape and outputs the name of the shape.
 
 __author__ = 'Hirra and Tyler'
 
+
 def name_that_shape():
     """
     For a given number of sides in a regular polygon, returns the shape name
@@ -55,8 +56,8 @@ Test case 1:
 
 Test case 2:
     Input: 4
-    Expected output: square
-    Actual output: square
+    Expected output: quadrilateral
+    Actual output: quadrilateral
 
 Test case 3:
     Input: 5
@@ -88,11 +89,10 @@ Test case 8:
     Expected output: decagon
     Actual output: decagon
 
-Test case 9: 
+Test case 9:
     Input: x
     Expected output: Error
     Actual output: Error
 
 Passed all tests successfully
 """
-
